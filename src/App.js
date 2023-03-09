@@ -2,7 +2,7 @@ import './App.css';
 import Box from './components/Box';
 import Btn from './components/Btn';
 import GuessNumber from './components/GuessNumber'
-function App(props) {
+function App() {
   return (
     <div>
     <p>click button to see shot</p>
