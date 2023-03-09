@@ -7,7 +7,11 @@ function Btn() {
   return (
     <div>
       <button onClick={clickHandler}>Click Me</button>
+    <button onClick={function(){console.log('first example')}}>
+        An inline ES5 function event handler
+    </button>
     </div>
+
   );
 }
 
